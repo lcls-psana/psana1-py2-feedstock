@@ -1,4 +1,4 @@
-{% set name = 'psana' %}
+{% set name = 'psana-py2' %}
 {% set version = '4.0.10' %}
 
 package:
