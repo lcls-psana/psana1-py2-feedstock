@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pswww.slac.stanford.edu/swdoc/tutorials/{{ name }} -{{ version }}.tar.gz
+  url: https://pswww.slac.stanford.edu/swdoc/tutorials/{{ name }}-{{ version }}.tar.gz
   sha256: 3a22497fcbf442b8309f61559f11a675474ed3b23adccc629f54e506aab14944 
   patches:
     - ndarray_ext.patch
