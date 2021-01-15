@@ -37,7 +37,7 @@ requirements:
     - qt=5.12.5
     - matplotlib-base=2.2.5
     - openmpi
-    - ndarray-psana-py2=1.1.8
+    - ndarray-psana=1.1.8
     - hdf5=1.10.5
     - curl=7.71.1
     - libcurl=7.71.1
