@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pswww.slac.stanford.edu/swdoc/tutorials/psana-conda-{{ version }}.tar.gz
+  url: https://pswww.slac.stanford.edu/swdoc/tutorials/{{ name }} -{{ version }}.tar.gz
   sha256: 3a22497fcbf442b8309f61559f11a675474ed3b23adccc629f54e506aab14944 
   patches:
     - ndarray_ext.patch
@@ -57,7 +57,7 @@ requirements:
     - h5py=2.10.0
     - _openmp_mutex=4.5
     - mpi4py
-    - ndarray-psana-py2=1.1.8
+    - ndarray-psana=1.1.8
     - pytables=3.5.2
     - six=1.15.0
     - curl=7.71.1
